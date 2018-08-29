@@ -1,0 +1,15 @@
+1) Copy "fRotz" to /usr/local/bin
+2) Create a folder in /sbbs/doors/<door>. Inside that directory create
+	the "saves" folder. - This is where save games will be saved.
+3) Copy your IF game into the /sbbs/doors/<door> directory
+4) Create your door entry with scfg. Use these settings:
+	a) Path: /sbbs/doors/<door>
+	b) Command Line: /usr/local/bin/fRotz -R saves <IF file>
+	c) Multiple Users: Yes
+	d) Redirection: Standard
+	e) Native: Yes
+	f) Shell: Yes
+
+If you need help submit a ticket at https://SynchronetBBS.org
+If you need IF games check out https://PocketiFiction.xyz
+
